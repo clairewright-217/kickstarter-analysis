@@ -35,13 +35,17 @@ For the outcomes based on goals analysis, it was a challenge to make sure my cou
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
+
 The best months to launch a theater production are May and June, and the worst month to launch is October. 
 
 - What can you conclude about the Outcomes based on Goals?
+
 In general, the higher the fundraising goal, the higher the failure rate of the plays. 
 
 - What are some limitations of this dataset?
+
 We didn't filter by country, so we aren't comparing Fever to plays that were produced in the same country. Also, this means that our fundraising goal categories are mixing currencies, which could lead to some erroneous data points about how plays did based on how much money they raised. 
 
 - What are some other possible tables and/or graphs that we could create?
+
 I would first consider adding the same graphs but filtering the data by the country where Louise plans to put on the play Fever, and filtering for the latest year only to show the most recent trends. I would also add a new new analysis which would be a pivot table that shows the values for the average of average donations and the average for the total number of backers filtered for the theater parent category, with the rows being the outcomes of the theater productions. That would give Louise a sense of how many backers she will need to get for a successful play. I would visualize this with a bar chart, that maps the average donation amount and the average amount of backers on the y axis against the outcomes of the play along the x axis. 
