@@ -8,7 +8,7 @@ Louise wants to put on a play called Fever, and she has been fundraising for its
 The purpose of this analysis is to determine the best time of the year for Louise to launch a theater production, and also to determine the best fundraising goal for plays based on the success or failure of other theater productions. 
 
 ## Analysis and Challenges
-To perform this analysis, I analyzed the database of other kickstarter campaigns for theater productions and plays. First, I wanted to know what were the outcomes of theater productions based on the month of the year that they launched. To do that, I built a pivot table that used the launch date and the outcome to show how many productions were successful, canceled, or failed based on the month they launched. I also filtered the pivot table to only show me theater kickstarters. I then inserted a line chart to visually show how the theater outcomes performed month to month. 
+To perform this analysis, I analyzed the [database](Kickstarter_Challenge_Copy.xlsx) of other kickstarter campaigns for theater productions and plays. First, I wanted to know what were the outcomes of theater productions based on the month of the year that they launched. To do that, I built a pivot table that used the launch date and the outcome to show how many productions were successful, canceled, or failed based on the month they launched. I also filtered the pivot table to only show me theater kickstarters. I then inserted a line chart to visually show how the theater outcomes performed month to month. 
 
 
 Second, I wanted to understand the outcome of kickstarters for plays based on their fundraising goal. I created different buckets of fundraising amounts that started at under 1000 dollars and went to over 50000 dollars. I used the countifs function to analyze the kickstarter data to give me a count of how many plays failed, succeeded, or were canceled based on the fundraising goal that they had.
@@ -16,13 +16,13 @@ Second, I wanted to understand the outcome of kickstarters for plays based on th
 
 ### Analysis of Outcomes Based on Launch Date
 
-The first analysis showed that theater productions launched in the middle of the year fared the best. That is, theater productions with a launch date between April and August performed better than between September and March, and May and June were the best months for launching theater productions. Louise should try to launch her play Fever in May or June to optimize her chance of success.
+The first analysis showed that theater productions launched in the middle of the year fared the best. That is, theater productions with a launch date between April and August performed better than between September and March, and May and June were the best months for launching theater productions. Louise should try to launch her play Fever in May or June to optimize her chance of success. The graph, [Theater Outcomes vs Launch](Theater_Outcomes_vs_Launch.png), shows the relationship between how theater productions perform based on teh month they launched.
 
 ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/14280739/154776265-62fbe2f5-2b5a-487a-bab5-213a5689fe60.png)
 
 ### Analysis of Outcomes Based on Goals
 
-The second analysis showed that there is a positive correlation between the fundraising goal and the chance of failure for plays. In general, the lower the fundraising goal for a play, the more likely it will succeed. Even though there was a higher percentage of successful vs failed plays with a fundraising goal between 35k and 45k dollars, there were only a small number of plays that tried to raise this much money. Hundreds of plays succeeded trying to raise under 10k dollars, and the success rate was higher than the failure rate in this fundraising range. Louise should try to raise a lower amount of money for Fever, ideally 5000 dollars or less, to increase her chance of success. 
+The second analysis showed that there is a positive correlation between the fundraising goal and the chance of failure for plays. In general, the lower the fundraising goal for a play, the more likely it will succeed. Even though there was a higher percentage of successful vs failed plays with a fundraising goal between 35k and 45k dollars, there were only a small number of plays that tried to raise this much money. Hundreds of plays succeeded trying to raise under 10k dollars, and the success rate was higher than the failure rate in this fundraising range. Louise should try to raise a lower amount of money for Fever, ideally 5000 dollars or less, to increase her chance of success. This graph, [Outcomes vs Goals](Outcomes_vs_Goals.png), shows the positive correlation between a higher fundraising goal leading to a higher chance of failure for plays. 
 
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/14280739/154776277-62000f9d-2d1f-415d-a3e2-b5357530efe0.png)
 
