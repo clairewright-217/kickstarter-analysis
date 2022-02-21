@@ -16,7 +16,7 @@ Second, I wanted to understand the outcome of kickstarters for plays based on th
 
 ### Analysis of Outcomes Based on Launch Date
 
-The first analysis showed that theater productions launched in the middle of the year fared the best. That is, theater productions with a launch date between April and August performed better than between September and March, and May and June were the best months for launching theater productions. Louise should try to launch her play Fever in May or June to optimize her chance of success. The graph, [Theater Outcomes vs Launch](Theater_Outcomes_vs_Launch.png), shows the relationship between how theater productions perform based on teh month they launched.
+The first analysis showed that theater productions launched in the middle of the year fared the best. That is, theater productions with a launch date between April and August performed better than between September and March, and May and June were the best months for launching theater productions. Louise should try to launch her play Fever in May or June to optimize her chance of success. The graph, [Theater Outcomes vs Launch](Challenge%201%20Resources/Theater_Outcomes_vs_Launch.png), shows the relationship between how theater productions perform based on teh month they launched.
 
 ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/14280739/154776265-62fbe2f5-2b5a-487a-bab5-213a5689fe60.png)
 
